@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.container-fluid {
+  background-color: #2980b9;
+}
+
+.container-fluid .imie {
+  color: white;
+  padding: 10px 10px;
+}
+
+.tresc {
+  background-color: white;
+  width: 100%;
+}
+
+.tresc .bok {
+  background-color: #ecf0f1;
+  padding: 0;
+}
+
+.tresc .bok .bok_strony .obraz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+}
+
+.tresc .bok .bok_strony .obraz .zdjecie {
+  width: auto;
+  background: url("/images/zdj5.png");
+}
+
+.tresc .bok .bok_strony .dane .opis {
+  padding: 5px 20px;
+}
+
+.tresc .bok .bok_strony .dane h4 {
+  color: white;
+  text-align: center;
+  background-color: #95a5a6;
+  padding: 5px;
+}
+
+.tresc .bok .bok_strony .dane span {
+  font-weight: bold;
+}
+
+.tresc .wszystko {
+  background-color: white;
+  padding: 0;
+}
+
+.tresc .wszystko .strona {
+  background-color: white;
+}
+
+.tresc .wszystko .strona p {
+  padding: 15px;
+}
+
+.tresc .wszystko .strona .tytul {
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 0;
+}
+
+.tresc .wszystko .strona .zawartosc {
+  padding: 0;
+  background-color: white;
+}
+
+.tresc .wszystko .strona .lata {
+  font-weight: bold;
+  color: #2980b9;
+  padding: 15px;
+}
+
+.tresc .wszystko .strona .opis_lat {
+  padding: 15px;
+}
+
+.tresc .wszystko .strona .opis_lat p {
+  padding: 0;
+  margin: 0;
+}
+
+.tresc .wszystko .strona .opis_lat p.obowiazki {
+  font-weight: bold;
+}
+
+.tresc .wszystko .strona .opis_lat span {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.tresc .wszystko .strona .opis_lat ul li {
+  list-style-type: square;
+}
+
+.tresc .wszystko .strona .koniec_strony {
+  border-bottom: 2px solid black;
+}
+
+.tresc .wszystko .strona .klauzula p {
+  font-size: 0.9em;
+}
+/*# sourceMappingURL=style.css.map */
